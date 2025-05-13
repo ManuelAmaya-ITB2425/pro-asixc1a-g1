@@ -1,19 +1,18 @@
 # PROYECTO TRANSVERSAL ASIXC
 
-### INDICE
-# 📚 Índice de Contenidos
+## 📚 Índice de Contenidos
 
 ## 🔹 Introducción
 - [¿Qué es este documento?](#qué-es-este-documento)
 - [Objetivos generales](#objetivos-generales)
 - [Cómo usar este índice](#cómo-usar-este-índice)
 
-## 🧠 Fundamentos
+## 🧠 Propuesta CPD
 - [Conceptos básicos](#conceptos-básicos)
 - [Terminología clave](#terminología-clave)
 - [Contexto histórico](#contexto-histórico)
 
-## 🔧 Herramientas y Recursos
+## 🔧 Implementación de los Servicios 
 - [Software recomendado](#software-recomendado)
 - [Bibliografía](#bibliografía)
 - [Enlaces útiles](#enlaces-útiles)
