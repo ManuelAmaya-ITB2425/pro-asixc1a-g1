@@ -9,11 +9,9 @@ Además, se ha ubicado lejos de fuentes de vibración o interferencia electromag
 ### Plano del edificio:
 
 <p align="center">
-  <img src="../img/Planoedificio3D.png" alt="Plano edificio" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
-</p>
+  <img src="../img/Planoedificio3D.png" alt="Plano edificio" width="30%" style="border: 1px solid #ccc; border-radius: 8px;" />
 
-<p align="center">
-  <img src="../img/PlanoedificioCPD3D.png" alt="Plano CPD" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="../img/PlanoedificioCPD3D.png" alt="Plano CPD" width="30%" style="border: 1px solid #ccc; border-radius: 8px;" />
 </p>
 
 ## 2. 🌡️ Sistemas de Climatización (Redundancia N+1)
@@ -82,41 +80,41 @@ A continuación se muestran representaciones en 3D de la distribución del cuart
 ### Vista frontal de la sala y armarios:
 
 <p align="center">
-  <img src="../img/imagen3D_1.png" alt="Vista frontal" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="../img/imagen3D_1.png" alt="Vista frontal" width="30%" style="border: 1px solid #ccc; border-radius: 8px;" />
 </p>
 
 ### Vista superior de la sala y armarios:
 
 <p align="center">
-  <img src="../img/imagen3D_2.png" alt="Vista superior" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="../img/imagen3D_2.png" alt="Vista superior" width="30%" style="border: 1px solid #ccc; border-radius: 8px;" />
 </p>
 
 ### Vista trasera de la sala y armarios:
 
 <p align="center">
-  <img src="../img/imagen3D_3.png" alt="Vista trasera" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="../img/imagen3D_3.png" alt="Vista trasera" width="30%" style="border: 1px solid #ccc; border-radius: 8px;" />
 </p>
 
 ### Vista lateral de la sala y armarios:
 
 <p align="center">
-  <img src="../img/imagen3D_4.png" alt="Vista lateral" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="../img/imagen3D_4.png" alt="Vista lateral" width="30%" style="border: 1px solid #ccc; border-radius: 8px;" />
 </p>
 
 ### Vista lateral con distribución de cámaras y racks:
 
 <p align="center">
-  <img src="../img/imagen3D_5.png" alt="Vista lateral cámaras" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="../img/imagen3D_5.png" alt="Vista lateral cámaras" width="30%" style="border: 1px solid #ccc; border-radius: 8px;" />
 </p>
 
 ### Planos del CPD:
 
 <p align="center">
-  <img src="../img/Plano.png" alt="Plano 1" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="../img/Plano.png" alt="Plano 1" width="30%" style="border: 1px solid #ccc; border-radius: 8px;" />
 </p>
 
 <p align="center">
-  <img src="../img/PlanoConMedidas.png" alt="Plano con medidas" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="../img/PlanoConMedidas.png" alt="Plano con medidas" width="30%" style="border: 1px solid #ccc; border-radius: 8px;" />
 </p>
 
 ## 7. 🗄️ Distribución de Armarios
