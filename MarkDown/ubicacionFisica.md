@@ -77,7 +77,7 @@ A continuación se muestran representaciones en 3D de la distribución del cuart
 
 ### Vista lateral con distribución de cámaras y racks:
 
-![Vista lateral]()
+![Vista lateral](../img/imagen3D_5.png)
 
 > Asegúrate de que las imágenes estén en una carpeta llamada `imagenes` junto al archivo `README.md`.
 
