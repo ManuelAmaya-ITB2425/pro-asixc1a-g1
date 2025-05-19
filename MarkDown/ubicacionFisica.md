@@ -73,7 +73,7 @@ A continuación se muestran representaciones en 3D de la distribución del cuart
 
 ### Vista superior de la sala y armarios:
 
-![Vista desde arriba](pro-asixc1a-g1/img/imagen3D_2.png)
+![Vista desde arriba](../img/imagen3D_2.png)
 
 ### Vista lateral con distribución de cámaras y racks:
 
