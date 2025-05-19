@@ -6,7 +6,15 @@ El cuarto técnico se encuentra en la planta baja del edificio, en una zona de a
 
 Además, se ha ubicado lejos de fuentes de vibración o interferencia electromagnética, protegiendo así la integridad de los equipos.
 
----
+### Plano del edificio:
+
+<p align="center">
+  <img src="../img/Planoedificio3D.png" alt="Plano edificio" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
+
+<p align="center">
+  <img src="../img/PlanoedificioCPD3D.png" alt="Plano CPD" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
 
 ## 2. 🌡️ Sistemas de Climatización (Redundancia N+1)
 
@@ -71,17 +79,45 @@ Este diseño favorece la eficiencia energética del CPD, reduciendo el consumo g
 
 A continuación se muestran representaciones en 3D de la distribución del cuarto técnico:
 
+### Vista frontal de la sala y armarios:
+
+<p align="center">
+  <img src="../img/imagen3D_1.png" alt="Vista frontal" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
+
 ### Vista superior de la sala y armarios:
 
-![Vista desde arriba](../img/imagen3D_2.png)
+<p align="center">
+  <img src="../img/imagen3D_2.png" alt="Vista superior" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
+
+### Vista trasera de la sala y armarios:
+
+<p align="center">
+  <img src="../img/imagen3D_3.png" alt="Vista trasera" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
+
+### Vista lateral de la sala y armarios:
+
+<p align="center">
+  <img src="../img/imagen3D_4.png" alt="Vista lateral" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
 
 ### Vista lateral con distribución de cámaras y racks:
 
-![Vista lateral](../img/imagen3D_5.png)
+<p align="center">
+  <img src="../img/imagen3D_5.png" alt="Vista lateral cámaras" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
 
-> Asegúrate de que las imágenes estén en una carpeta llamada `imagenes` junto al archivo `README.md`.
+### Planos del CPD:
 
----
+<p align="center">
+  <img src="../img/Plano.png" alt="Plano 1" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
+
+<p align="center">
+  <img src="../img/PlanoConMedidas.png" alt="Plano con medidas" width="70%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
 
 ## 7. 🗄️ Distribución de Armarios
 
@@ -97,8 +133,6 @@ El cuarto dispone de **dos armarios de red de 42U**, estratégicamente colocados
 
 - Configuración en **"pasillo frío/pasillo caliente"**
 - Cableado optimizado para no obstruir el flujo de aire
-
-
 
 <p align="center" style="margin-top: 40px;">
   <a href="pagina1.md" style="text-decoration: none; margin-right: 20px;">
