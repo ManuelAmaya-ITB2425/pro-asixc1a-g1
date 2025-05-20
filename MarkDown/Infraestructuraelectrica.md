@@ -65,6 +65,9 @@ Así es como se verà con los 5 SAI instalados:
 <p align="center">
   <img src="../img/BRRT1.png"  width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
+
+---
+
 <p align="center">
   <img src="../img/BRRT2.png"  width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
