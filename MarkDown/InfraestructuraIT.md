@@ -2,86 +2,61 @@
 
 ## 1. 🖧 Servidores
 
-Contaremos con **12 servidores de producción** y **2 de reserva** (política N+1) para garantizar continuidad de servicio.
+Tendremos **12 servidores de producción** y **2 de reserva** (política N+1) para asegurar la continuidad. Cada rack alojará:
 
 - 🔹 **Modelo**: HPE ProLiant DL380 Gen10  
 - 🔹 **CPU**: 2× Intel Xeon Silver 4216 (16 c / 32 h)  
 - 🔹 **RAM**: 512 GB DDR4 (8×64 GB RDIMM)  
-- 🔹 **Arranque**: 4× NVMe 1,6 TB  
-- 🔹 **Datos**: 8× SAS 12 TB 10 K RPM  
-- 🔹 **Virtualización**: VMware vSphere HA sobre un clúster de 7 hosts activos + 1 nodo vSAN  
-- 🔹 **Redundancia**: Si un servidor falla, las VM migran al siguiente sin corte
+- 🔹 **Arranque**: 4× NVMe 1,6 TB en RAID 1+0  
+- 🔹 **Datos**: 8× SAS 12 TB @10 000 rpm en RAID 6  
+
+**Cómo funciona**:  
+Cada servidor arranca rápido desde NVMe y guarda los VMs y bases de datos en los SAS. Un hipervisor (VMware ESXi) coordina un clúster de 7 nodos activos + 1 vSAN, detecta fallos en < 10 s y mueve automáticamente las VM al siguiente host.
 
 <p align="center">
-  <img src="../img/Servidores.png" alt="Servidores" width="40%" style="border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="../img/Servidores.png" alt="Servidores" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 ---
 
 ## 2. 🧩 Patch Panels
 
-Organización y terminación de enlaces de fibra y cobre según norma **TIA-568**:
+Organizan y terminan todos los cables de fibra y cobre:
 
-- 🔌 **Fibra OM4 (LC duplex)**: Patch panel 12 fibras  
-- 🔌 **Cobre Cat6A (RJ-45)**: Patch panel 48 puertos  
-- 🔌 **Etiquetado**: Conforme a TIA-606-B, con código en ambos extremos  
-- 🔌 **Gestión de cableado**: Bandejas horizontales y verticales para separar fibra y cobre
+- 🔌 **Fibra OM4 (LC Duplex)**  
+  - Patch panel de 12 fibras, montado en U5  
+  - Troncales 4×10 Gbps hacia switches de distribución  
+
+- 🔌 **Cobre Cat6A (RJ-45)**  
+  - Patch panel de 48 puertos, montado en U6  
+  - Conexiones de gestión y consola (1 Gbps)  
+
+**Conexión**:  
+Los servidores usan transceivers SFP+ duales: dos enlaces de 10 Gbps (datos + backup) a panel OM4. Cada puerto del panel está numerado y etiquetado en ambos extremos, siguiendo TIA-606-B.
 
 <p align="center">
-  <img src="../img/PatchPanels.png" alt="Patch Panels" width="40%" style="border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="../img/PatchPanels.png" alt="Patch Panels" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 ---
 
 ## 3. 🌐 Switches
 
-Diseño en **tres capas** para máxima escalabilidad y resiliencia:
+Arquitectura de red en tres niveles:
 
-1. **Core**  
-   - Cisco Catalyst 9500–24Q (stack activo-activo)  
+1. **Core (U5)**  
+   - 2× Cisco Catalyst 9500–24Q en stack activo-activo  
    - 24× QSFP+ a 40 Gbps  
-   - VRRP y LACP para redundancia de gateway y enlace
+   - LACP para agregación y VRRP para gateway  
 
-2. **Distribución**  
-   - Cisco Catalyst 9300–48UX  
-   - 48× 1 GbE PoE+ + 4× 10 GbE uplinks al Core  
-   - ACLs y QoS para segmentar y priorizar tráfico
+2. **Distribución (U7)**  
+   - 2× Cisco Catalyst 9300–48UX  
+   - 48× 1 Gbps PoE+ + 4× 10 Gbps uplinks al Core  
+   - ACLs para aislar VLANs y QoS para priorizar VoIP/ERP  
 
-3. **Acceso**  
-   - Cisco Catalyst 9200–24P (1 GbE)  
-   - Despliegue en pares activo-reserva en armarios de planta  
-   - Conecta PCs, VoIP y cámaras
+3. **Acceso (fuera rack)**  
+   - 160× Cisco Catalyst 9200–24P (1 Gbps)  
+   - Despliegue en parejas activo-reserva por armario de planta  
+   - Conectan PCs, teléfonos IP y cámaras  
 
-<p align="center">
-  <img src="../img/Switches.png" alt="Switches" width="40%" style="border: 1px solid #ccc; border-radius: 8px;" />
-</p>
-
----
-
-## 4. 🔌 Alimentación y Refrigeración
-
-- 🔋 **SAI/UPS** en configuración N+1, módulos intercambiables en caliente  
-- 🔌 **PDU frontales y traseras** por rack, en circuitos independientes  
-- ❄️ **Pasillo frío/pasillo caliente**: aire frío al frente, caliente por detrás  
-- 🌡️ **Monitoreo ambiental**: sensores de temperatura, humedad y detección de humo  
-
----
-
-## 5. 🗄️ Diseño de Racks (42 U)
-
-```text
-┌──────────────────────────────────────────┐
-│ U1–U2   PDU frontales y traseras        │
-│ U3–U4   Bandejas gestión de cableado    │
-│ U5      Patch panel fibra OM4           │
-│ U6      Patch panel cobre Cat6A         │
-│ U7      Switches de Distribución (9300) │
-│ U8      Bandejas horizontales           │
-│ U9–U18  10× Servidores (prod + vSAN)    │
-│ U19–U20 Servidores de reserva           │
-│ U21     Switch Acceso (9200)            │
-│ U22–U24 Módulos UPS (N+1)               │
-│ U25     Consola KVM                     │
-│ U26–U42 Espacio para futuras ampliaciones│
-└──────────────────────────────────────────┘
-
+**Topología**:  
