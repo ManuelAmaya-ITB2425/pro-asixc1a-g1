@@ -4,7 +4,7 @@
 
 ## 🧠 Propuesta CPD
 - [Ubicacion Fisica](./MarkDown/ubicacionFisica.md)
-- [Infraestructura IT](#terminología-clave)
+- [Infraestructura IT](./MarkDown/InfraestructuraIT.md)
 - [Infraestructura elèctrica](#contexto-histórico)
 - [Seguretat física i lògica](./MarkDown/seguridadlogicayfisica.md)
 - [Sostenibilitat](./MarkDown/sostenibilidad.md)
