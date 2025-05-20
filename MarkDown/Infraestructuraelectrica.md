@@ -64,7 +64,7 @@ Per assegurar-nos que els servidors poden funcionar **mínim 3 hores** sense ele
 
 - 💸 Preu per unitat: **460,95 €**
 - 🔢 Total per 5 unitats:  
-  `460,95 € × 5 = **2.304,75 €**`
+  `460,95 € × 5 =` **2.304,75 €**
 
 ---
   </a>
