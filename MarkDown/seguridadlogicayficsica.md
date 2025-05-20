@@ -1,4 +1,4 @@
-# 1.4 - Seguridad física y lógica
+# Seguridad física y lógica
 
 ## Seguridad física
 
@@ -90,10 +90,10 @@
 ## Prevención de riesgos laborales
 
 ### Medidas aplicadas en materia de la prevención de RRLL en el CPD:
-- Instalación eléctrica segura, el sistema eléctrico cumple la normativa REBT (Reglamento Electrónico de Baja Tensión). Separación clara entre cableado eléctrico y de datos, para evitar interferencias o riesgos de circuitos.  
-- Sistema contra incendios, con detectores de humo y calor. Extintores manuales homologados en cada acceso. Señalización clara de la salida de emergencia y acceso a extintores. Sistema automático de extinción de incendios con gas inerte.  
-- Formación y protocolos de emergencia, los técnicos que entren al CPD recibirán una formación básica y los protocolos de evacuación. Se realizan simulacros anuales para practicar cómo actuar en caso de incendios. Códigos QR y manuales con el procedimiento de actuación en puntos estratégicos.  
-- Espacio ordenado y libre de obstáculos, cableado bajo tierra y por el falso techo. Los espacios y pasillos entre racks tienen las medidas mínimas reglamentarias.  
-- Control ambiental y confort, la temperatura y humedad están controladas. Iluminación LED adecuada y antideslumbrante para evitar fatiga visual. Niveles sonoros se mantienen en los límites aceptables para la vida laboral.  
+- **Instalación eléctrica segura**, el sistema eléctrico cumple la normativa REBT (Reglamento Electrónico de Baja Tensión). Separación clara entre cableado eléctrico y de datos, para evitar interferencias o riesgos de circuitos.  
+- **Sistema contra incendios**, con detectores de humo y calor. Extintores manuales homologados en cada acceso. Señalización clara de la salida de emergencia y acceso a extintores. Sistema automático de extinción de incendios con gas inerte.  
+- **Formación y protocolos de emergencia**, los técnicos que entren al CPD recibirán una formación básica y los protocolos de evacuación. Se realizan simulacros anuales para practicar cómo actuar en caso de incendios. Códigos QR y manuales con el procedimiento de actuación en puntos estratégicos.  
+- **Espacio ordenado y libre de obstáculos**, cableado bajo tierra y por el falso techo. Los espacios y pasillos entre racks tienen las medidas mínimas reglamentarias.  
+- **Control ambiental y confort**, la temperatura y humedad están controladas. Iluminación LED adecuada y antideslumbrante para evitar fatiga visual. Niveles sonoros se mantienen en los límites aceptables para la vida laboral.  
 
 *Imagen: Prevención de riesgos laborales en el CPD*
