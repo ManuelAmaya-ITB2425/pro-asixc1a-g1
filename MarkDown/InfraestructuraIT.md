@@ -149,7 +149,7 @@ Este rack proporciona capacidad adicional para failover, carga futura y distribu
 </p>
 
 <p align="center" style="margin-top: 40px;">
-  <a href="../ubicaciofix" style="text-decoration: none; margin-right: 20px;">
+  <a href="./ubicacionFisica.md" style="text-decoration: none; margin-right: 20px;">
     <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
       ⬅️ Página anterior
     </button>
