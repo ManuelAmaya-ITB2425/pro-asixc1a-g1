@@ -53,8 +53,7 @@ En este proyecto abordamos dos líneas principales:
 - **Infraestructura Cloud (CPD):**  
   Se analizaron distintos gestores de nube atendiendo al rendimiento energético, sostenibilidad y capacidad para brindar servicios exigentes como la retransmisión de audio y vídeo.  
   **Google Cloud Platform** fue seleccionado como la mejor opción gracias a sus herramientas específicas, su escalabilidad automática y su fuerte compromiso medioambiental.
-
 - **Nivel técnico y medioambiental:**  
   El plan asegura un funcionamiento eficaz, calidad de servicio y responsabilidad con el medio ambiente. Esta infraestructura, junto con su enfoque en eficiencia y escalabilidad, es ideal para una empresa tecnológica que busque adaptarse a los retos actuales del sector informático.
-
+<img src="../img/conclusionaws.png" height="500">
 ---
