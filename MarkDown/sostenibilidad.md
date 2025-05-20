@@ -39,7 +39,7 @@
 
   <a href="./README.md" style="text-decoration: none; margin-right: 20px;">
     <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
-      🏠 Inicio
+      | 🏠 Inicio |
     </button>
   </a>
   
