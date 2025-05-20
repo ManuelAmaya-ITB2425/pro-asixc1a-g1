@@ -6,8 +6,8 @@
 - [Ubicacion Fisica](./MarkDown/ubicacionFisica.md)
 - [Infraestructura IT](#terminología-clave)
 - [Infraestructura elèctrica](#contexto-histórico)
-- [Seguretat física i lògica](./MarkDown/seguridadlogicayficsica.md)
-- [Sostenibilitat](#contexto-histórico)
+- [Seguretat física i lògica](./MarkDown/seguridadlogicayfisica.md)
+- [Sostenibilitat](./MarkDown/sostenibilidad.md)
 - [Implementació del CPD al núvol AWS](#)
 - [Investigar i comparar eficiència energètica amb altres proveïdors del núvol.](#)
 
