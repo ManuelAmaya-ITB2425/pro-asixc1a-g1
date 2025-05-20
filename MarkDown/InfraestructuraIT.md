@@ -18,7 +18,7 @@ Tendremos **12 servidores de producción** y **2 de reserva** (política N+1) pa
 3. El almacenamiento distribuido vSAN replica bloques en múltiples nodos, garantizando tolerancia a pérdidas de disco o servidor.
 
 <p align="center">
-  <img src="../img/Servidores.png" alt="Servidores" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="../img/Servidoresfoto.png" alt="Servidores" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 ---
@@ -40,7 +40,7 @@ Agrupan y organizan todos los enlaces de fibra y cobre:
 
 
 <p align="center">
-  <img src="../img/PatchPanels.png" alt="Patch Panels" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="../img/Patchpannelsfoto.png" alt="Patch Panels" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 ---
@@ -68,7 +68,7 @@ Agrupan y organizan todos los enlaces de fibra y cobre:
 
 
 <p align="center">
-  <img src="../img/Switches.png" alt="Switches" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="../img/Switchesfoto.png" alt="Switches" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 ---
@@ -82,22 +82,15 @@ Agrupan y organizan todos los enlaces de fibra y cobre:
   - Rejillas en suelo técnico (40 cm) y techo falso dirigen el aire  
 - 🌡️ **Monitorización ambiental**: sensores de temperatura, humedad y humo conectados a BMS con alertas SMS/Email
 
+
+<p align="center">
+  <img src="../img/Refrifoto.png" alt="Alimentación y Refrigeración" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
+
 ---
 
 ## 5. 🗄️ Diseño de Rack (42 U)
 
-```text
-┌────────────────────────────────────────────┐
-│ U1–U2   PDU frontales/traseras             │
-│ U3–U4   Bandejas gestión de cableado       │
-│ U5      Patch panel fibra OM4              │
-│ U6      Patch panel cobre Cat6A            │
-│ U7      Switches Distribución (9300)       │
-│ U8      Bandejas horizontales              │
-│ U9–U18  10× Servidores (prod + vSAN)       │
-│ U19–U20 2× Servidores de reserva           │
-│ U21     Switch Acceso (9200)               │
-│ U22–U24 Módulos UPS (2 kVA, N+1)           │
-│ U25     Consola KVM                        │
-│ U26–U42 Espacio libre para ampliaciones    │
-└────────────────────────────────────────────┘
+<p align="center">
+  <img src="../img/racksfoto.png" alt="Racks" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
