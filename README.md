@@ -8,7 +8,7 @@
 - [Infraestructura elèctrica](#contexto-histórico)
 - [Seguretat física i lògica](./MarkDown/seguridadlogicayfisica.md)
 - [Sostenibilitat](./MarkDown/sostenibilidad.md)
-- [Implementació del CPD al núvol AWS](#)
+- [Implementació del CPD al núvol AWS](./MarkDown/implementacionCPD.md)
 - [Investigar i comparar eficiència energètica amb altres proveïdors del núvol.](#)
 
 ## 🔧 Implementación de los Servicios 
