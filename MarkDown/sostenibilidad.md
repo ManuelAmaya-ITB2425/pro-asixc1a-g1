@@ -31,7 +31,7 @@
 - 💡🚶‍♂️ Iluminación **LED con sensores de presencia** integrados en el techo técnico.
 
 <p align="center" style="margin-top: 40px;">
-  <a href="./seguridadlogicayficsica.md" style="text-decoration: none; margin-right: 20px;">
+  <a href="./seguridadlogicayfisica.md" style="text-decoration: none; margin-right: 20px;">
     <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
       ⬅️ Página anterior
     </button>
