@@ -2,15 +2,14 @@
 
 ## 📚 Índice de Contenidos
 
-## 🔹 Introducción
-- [¿Qué es este documento?](#qué-es-este-documento)
-- [Objetivos generales](#objetivos-generales)
-- [Cómo usar este índice](#cómo-usar-este-índice)
-
 ## 🧠 Propuesta CPD
-- [Conceptos básicos](#conceptos-básicos)
-- [Terminología clave](#terminología-clave)
-- [Contexto histórico](#contexto-histórico)
+- [Ubicacion Fisica](./MarkDown/ubicacionFisica.md)
+- [Infraestructura IT](#terminología-clave)
+- [Infraestructura elèctrica](#contexto-histórico)
+- [Seguretat física i lògica](#contexto-histórico)
+- [Sostenibilitat](#contexto-histórico)
+- [Implementació del CPD al núvol AWS](#)
+- [Investigar i comparar eficiència energètica amb altres proveïdors del núvol.](#)
 
 ## 🔧 Implementación de los Servicios 
 - [Software recomendado](#software-recomendado)
@@ -30,7 +29,7 @@
 ---
 
 <p align="center">
-  <a href="pagina2.md" style="text-decoration: none;">
+  <a href="./MarkDown/ubicacionFisica.md" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #4CAF50; color: white; border: none;">
       👉 Siguiente página
     </button>
