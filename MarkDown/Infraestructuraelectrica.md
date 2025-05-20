@@ -39,7 +39,7 @@ Per assegurar-nos que els servidors poden funcionar **mínim 3 hores** sense ele
   `21 kWh / 5,4 kWh ≈ 3,89 → 4 unitats`
 - ➕ **Amb redundància N+1**:  
   `4 + 1 = 5 UPS`
-  
+  Captura de pantalla de 2025-05-20 12-28-50.png
 Así es como se verà con los 5 SAI instalados:
 <p align="center">
   <img src="../img/FOTOSAI.png" alt="SAIs instal·lats" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
@@ -62,6 +62,12 @@ Así es como se verà con los 5 SAI instalados:
 - 💸 Preu per unitat: **460,95 €**
 - 🔢 Total per 5 unitats:  
   `460,95 € × 5 =` **2.304,75 €**
+<p align="center">
+  <img src="../img/BRRT1.png" alt="SAIs instal·lats" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
+<p align="center">
+  <img src="../img/BRRT2.png" alt="SAIs instal·lats" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
 
 ---
   </a>
