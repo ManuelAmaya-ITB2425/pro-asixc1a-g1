@@ -57,3 +57,23 @@ En este proyecto abordamos dos líneas principales:
   El plan asegura un funcionamiento eficaz, calidad de servicio y responsabilidad con el medio ambiente. Esta infraestructura, junto con su enfoque en eficiencia y escalabilidad, es ideal para una empresa tecnológica que busque adaptarse a los retos actuales del sector informático.
 <img src="../img/conclusionaws.png" height="500">
 ---
+
+<p align="center" style="margin-top: 40px;">
+  <a href="./implementacionCPD.md" style="text-decoration: none; margin-right: 20px;">
+    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
+      ⬅️ Página anterior
+    </button>
+  </a>
+
+  <a href="../README.md" style="text-decoration: none; margin-right: 20px;">
+    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
+      | 🏠 Inicio |
+    </button>
+  </a>
+  
+  <a href="../README.md" style="text-decoration: none; margin-left: 20px;">
+    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #4CAF50; color: white; border: none;">
+      Página siguiente ➡️
+    </button>
+  </a>
+</p>
