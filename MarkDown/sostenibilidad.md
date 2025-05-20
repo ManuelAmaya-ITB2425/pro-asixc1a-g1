@@ -31,13 +31,13 @@
 - 💡🚶‍♂️ Iluminación **LED con sensores de presencia** integrados en el techo técnico.
 
 <p align="center" style="margin-top: 40px;">
-  <a href="../infraestructuraelectrica.md" style="text-decoration: none; margin-right: 20px;">
+  <a href="./seguridadlogicayficsica.md" style="text-decoration: none; margin-right: 20px;">
     <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
       ⬅️ Página anterior
     </button>
   </a>
   
-  <a href="./sostenibilidad.md" style="text-decoration: none; margin-left: 20px;">
+  <a href="./Implementacion del CPD al nuvol AWS" style="text-decoration: none; margin-left: 20px;">
     <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #4CAF50; color: white; border: none;">
       Página siguiente ➡️
     </button>
