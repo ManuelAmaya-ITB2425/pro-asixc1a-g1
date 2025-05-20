@@ -63,10 +63,10 @@ Así es como se verà con los 5 SAI instalados:
 - 🔢 Total per 5 unitats:  
   `460,95 € × 5 =` **2.304,75 €**
 <p align="center">
-  <img src="../img/BB1.png" alt="FOTOSAII" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="../img/BB1.png"  width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 <p align="center">
-  <img src="../img/BB2.png" alt="FOTOSAII" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="../img/BB2.png"  width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 ---
