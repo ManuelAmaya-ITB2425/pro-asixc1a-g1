@@ -14,10 +14,6 @@ El **Data Center** està dissenyat per mantenir el servei actiu **en tot moment*
 
 🧠 **Resultat**: Si falla una font o línia elèctrica, **el sistema segueix funcionant sense interrupció**.
 
-<p align="center">
-  <img src="../img/Refrifoto.png" alt="UPS i distribució elèctrica" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
-</p>
-
 ---
 
 ## 2. 🧮 Càlcul per garantir autonomia de 3 hores
@@ -45,7 +41,7 @@ Per assegurar-nos que els servidors poden funcionar **mínim 3 hores** sense ele
   `4 + 1 = 5 UPS`
 
 <p align="center">
-  <img src="../img/sais_instalados.png" alt="SAIs instal·lats" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="../img/FOTOSAI.png" alt="SAIs instal·lats" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 ---
