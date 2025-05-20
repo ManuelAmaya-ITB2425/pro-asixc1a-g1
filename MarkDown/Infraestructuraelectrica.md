@@ -39,6 +39,7 @@ Per assegurar-nos que els servidors poden funcionar **mínim 3 hores** sense ele
   `21 kWh / 5,4 kWh ≈ 3,89 → 4 unitats`
 - ➕ **Amb redundància N+1**:  
   `4 + 1 = 5 UPS`
+  
 Así es como se verà con los 5 SAI instalados:
 <p align="center">
   <img src="../img/FOTOSAI.png" alt="SAIs instal·lats" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
