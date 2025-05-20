@@ -13,14 +13,14 @@
 
 ---
 
-### 1.2 Comparación de gestores de nube según rendimiento y atenciones
+### 1.2 Comparació de gestors de núvol segons rendiment i atencions
 
-     |               | **Gestor**        | **Eficiencia energética**              | **Solución de audio y vídeo**     | **Revisión de red**              | **Otras ventajas**                                  |
-     |---------------|------------------|----------------------------------------|-----------------------------------|----------------------------------|------------------------------------------------------|
-     |               | **Google Cloud** | PUE 1.10, 100% renovable               | Transcoder API, Live Stream API  | Network Intelligence Center      | Muy adaptable                                           |
-     |               | **Amazon AWS**   | PUE 1.14, 85% renovable                | AWS Elemental MediaLive          | Amazon CloudWatch                | Múltiples zonas accesibles                             |
-     |               | **Microsoft Azure** | PUE 1.125, 100% renovable en 2025  | Azure Media Services             | Azure Monitor                    | Óptima integración con Windows Server                  |
-     |               | **OVHcloud**     | PUE 1.09, refrigeración líquida        | Servidores dedicados y Cloud Public | Grafana, Metrics             | CPD en Europa y más económico                          |
+| **Logos** | **Gestor**         | **Eficiència energètica**              | **Solució d’àudio i vídeo**           | **Revisió de xarxa**                  | **Altres avantatges**                                   |
+|:--:|--------------------|------------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------------------------|
+| <img src="../img/AWS.png" height="20">         | **Amazon AWS**     | PUE 1.14, 85% renovable                | AWS Elemental MediaLive               | Amazon CloudWatch                     | Múltiples zones accessibles                              |
+| <img src="../img/Azure.png" height="20">       | **Microsoft Azure**| PUE 1.125, 100% renovable el 2025     | Azure Media Services                  | Azure Monitor                         | Integració òptima amb Windows Server                     |
+| <img src="../img/ovhcloud.png" height="20">    | **OVHcloud**       | PUE 1.09, refrigeració líquida         | Servidors dedicats i Cloud Public     | Grafana, Metrics                      | CPD a Europa i més econòmic                              |
+| <img src="../img/googlecloud.png" height="20"> | **Google Cloud**   | PUE 1.10, 100% renovable               | Transcoder API, Live Stream API       | Network Intelligence Center           | Molt adaptable                                           |
 
 ---
 
