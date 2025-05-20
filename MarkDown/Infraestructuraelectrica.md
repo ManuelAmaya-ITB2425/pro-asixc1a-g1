@@ -64,26 +64,8 @@ Per assegurar-nos que els servidors poden funcionar **mínim 3 hores** sense ele
 
 - 💸 Preu per unitat: **460,95 €**
 - 🔢 Total per 5 unitats:  
-  `460,95 € × 5 = 2.304,75 €`
+  `460,95 € × 5 = **2.304,75 €**`
 
 ---
-
-<p align="center" style="margin-top: 40px;">
-  <a href="./disenoRacks.md" style="text-decoration: none; margin-right: 20px;">
-    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
-      ⬅️ Página anterior
-    </button>
-  </a>
-  
-  <a href="../README.md" style="text-decoration: none; margin-right: 20px;">
-    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
-      | 🏠 Inici |
-    </button>
-  </a>
-  
-  <a href="./climatitzacio.md" style="text-decoration: none; margin-left: 20px;">
-    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #4CAF50; color: white; border: none;">
-      Página següent ➡️
-    </button>
   </a>
 </p>
