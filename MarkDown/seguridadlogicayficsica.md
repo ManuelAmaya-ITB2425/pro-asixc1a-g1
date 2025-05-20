@@ -97,3 +97,17 @@
 - **Control ambiental y confort**, la temperatura y humedad están controladas. Iluminación LED adecuada y antideslumbrante para evitar fatiga visual. Niveles sonoros se mantienen en los límites aceptables para la vida laboral.  
 
 *Imagen: Prevención de riesgos laborales en el CPD*
+
+<p align="center" style="margin-top: 40px;">
+  <a href="../README.md" style="text-decoration: none; margin-right: 20px;">
+    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
+      ⬅️ Página anterior
+    </button>
+  </a>
+  
+  <a href="./InfraestructuraIT.md" style="text-decoration: none; margin-left: 20px;">
+    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #4CAF50; color: white; border: none;">
+      Página siguiente ➡️
+    </button>
+  </a>
+</p>
