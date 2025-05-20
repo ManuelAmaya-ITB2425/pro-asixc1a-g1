@@ -9,7 +9,7 @@
 - [Seguretat física i lògica](./MarkDown/seguridadlogicayfisica.md)
 - [Sostenibilitat](./MarkDown/sostenibilidad.md)
 - [Implementació del CPD al núvol AWS](./MarkDown/implementacionCPD.md)
-- [Investigar i comparar eficiència energètica amb altres proveïdors del núvol.](#)
+- [Investigar i comparar eficiència energètica amb altres proveïdors del núvol.](./MarkDown/proveidorsdelnuvol.md)
 
 ## 🔧 Implementación de los Servicios 
 - [Software recomendado](#software-recomendado)
