@@ -40,7 +40,7 @@ Usaremos el modelo **Cisco Catalyst 9300**, ya que ofrece mayor soporte y capaci
 - VLAN 40: 📦 Backup
 
 <p align="center">
-  <img src="../img/ASwitches.png" alt="Switches" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="../img/Aswitches.png" alt="Switches" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 ---
