@@ -39,6 +39,10 @@ Usaremos el modelo **Cisco Catalyst 9300**, ya que ofrece mayor soporte y capaci
 - VLAN 30: 💾 Almacenamiento  
 - VLAN 40: 📦 Backup
 
+<p align="center">
+  <img src="../img/ASwitches.png" alt="Switches" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
+
 ---
 
 ## 3. 🧩 Patch Panels
@@ -54,6 +58,10 @@ El modelo que utilizaremos será el **Digitus Cat6A**, que soporta velocidades d
 - 2× conexión con almacenamiento externo o dispositivos especiales
 
 🔗 Los patch panels actuarán como **punto intermedio** entre servidores/switches y el resto de la instalación, facilitando mantenimiento, trazabilidad y futuras modificaciones.
+
+<p align="center">
+  <img src="../img/Apannels.png" alt="Patch Pannels" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
 
 ---
 
@@ -80,6 +88,10 @@ El modelo será el **APC AR3150B 42U** (42 unidades de rack = 1,86 metros).
 - Dejar espacio para expansión  
 - Facilitar el mantenimiento por secciones
 
+<p align="center">
+  <img src="../img/Aracks.png" alt="Racks" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
+
 ---
 
 ## 5. 💾 Almacenamiento
@@ -89,3 +101,7 @@ Tendremos un sistema **SAN/NAS** conectado por **10 GbE** a los switches, ofreci
 - ⚙️ **Configuración**: RAID 10  
 - 🚀 **Ventajas**: velocidad + redundancia  
 - 🧠 Ideal para backups y bases de datos compartidas
+
+<p align="center">
+  <img src="../img/AAlmacenamiento.png" alt="Almacenamiento" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
