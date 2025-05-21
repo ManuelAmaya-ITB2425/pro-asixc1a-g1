@@ -106,6 +106,21 @@ Tendremos un sistema **SAN/NAS** conectado por **10 GbE** a los switches, ofreci
   <img src="../img/AAlmacenamiento.png" alt="Almacenamiento" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
+---
+
+## 🗄️ Resumen General
+
+- 🧠 **Infraestructura principal**: 3 racks de 42U con 10 servidores HPE ProLiant DL380 Gen10 virtualizados.
+- 🔀 **Red**: 6 switches Cisco Catalyst 9300 interconectados mediante LACP y organizados con patch panels Cat 6A.
+- 💾 **Almacenamiento**: Sistema NAS/SAN conectado a 10GbE, con RAID para alto rendimiento y seguridad.
+- 🔄 **Diseño**: Redundante, escalable y optimizado para soportar hasta 8000 usuarios simultáneos sin cuellos de botella.
+
+<p align="center">
+  <img src="../img/AResumen.png" alt="Almacenamiento" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
+
+
+
 <p align="center" style="margin-top: 40px;">
   <a href="./ubicacionFisica.md" style="text-decoration: none; margin-right: 20px;">
     <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
@@ -125,3 +140,8 @@ Tendremos un sistema **SAN/NAS** conectado por **10 GbE** a los switches, ofreci
     </button>
   </a>
 </p>
+
+
+
+
+
