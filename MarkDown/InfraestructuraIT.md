@@ -16,6 +16,10 @@ Cada servidor contará con **2 tarjetas de red (NICs)**:
 
 🔁 Así con todos los servidores, creando una **redundancia activa**: si un switch muere, el tráfico seguirá fluyendo por el otro.
 
+<p align="center">
+  <img src="../img/Aservidores.png" alt="Servidores" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
+
 ---
 
 ## 2. 🌐 Switches
