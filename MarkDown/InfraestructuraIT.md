@@ -1,6 +1,6 @@
-# 🖥️ Infraestructura Complementaria del CPD
+# Infraestructura Complementaria del CPD
 
-## 1. 🖧 Servidores
+## 1. 🖥️ Servidores
 
 Tendremos un total de **8 servidores** más **2 de reserva**. Cada uno podrá alojar entre **10 y 20 máquinas virtuales**, y el sistema permitirá tener entre **100 y 200 máquinas activas simultáneamente** para los servicios web, bases de datos, correo, etc.
 
