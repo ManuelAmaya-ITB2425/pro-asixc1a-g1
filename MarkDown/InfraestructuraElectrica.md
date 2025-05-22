@@ -1,71 +1,41 @@
-# 🔢 Càlcul de consum elèctric i dimensionament del sistema SAI
+# 🔢 Cálculo del consumo estimado del sistema
 
-## 1. ⚙️ Consum estimat del sistema
+Primero calculamos el CONSUMO ESTIMADO DEL SISTEMA:  
+Número de servidores activos: 1  
+Consumo estimado por servidor: un servidor consume 700 W de media y con mucha carga, puede llegar a picos de 1000 W, por esta razón pondremos un margen de seguridad del 20%, para que los SAI puedan aguantar los servidores cuando estos están a máxima carga.
 
-Comencem calculant el **consum estimat dels servidors** en funcionament habitual i en condicions de màxima càrrega:
+**Consumo total:**  
+10 Servidores x 700 W = 7 kW
 
-- 🖥️ **Nombre de servidors actius**: 10
-- ⚡ **Consum mitjà per servidor**: 700 W
-- 🚀 **Consum màxim amb càrrega alta**: fins a 1.000 W
-- 🛡️ **Margen de seguretat aplicat**: 20% per absorbir pics i garantir estabilitat
+**Margen de seguridad del 20% para compensar picos de consumo y garantir eficiencia:**  
+7 kW x 1,2 = 8,4 kW  
+**Energía necesaria para 3 horas:**  
+8,4 kW x 3 h = 25,2 kWh  
 
-### 📐 Càlcul total de potència:
+Así que necesitaremos un sistema de SAI que nos proporcione **25,2 KWh** para que los servidores puedan funcionar por 3 horas sin electricidad, teniendo en cuenta los picos de consumo que pueden suceder al tener los servidores a máxima carga.
 
-- `10 × 700 W = 7.000 W = 7 kW`
-
-### ➕ Amb marge de seguretat del 20%:
-
-- `7 kW × 1,2 = 8,4 kW`
-
-### 🔋 Energia necessària per 3 hores d’autonomia:
-
-- `8,4 kW × 3 h = 25,2 kWh`
-
-👉 Per tant, necessitem un sistema SAI capaç de subministrar **25,2 kWh** per mantenir els servidors encesos durant **3 hores**, fins i tot si funcionen a plena capacitat.
-
----
-
-## 2. 🔍 Selecció del sistema SAI
-
-Per cobrir aquesta demanda energètica, busquem un sistema amb les característiques següents:
-
-- ⚡ **Potència nominal**: 6 kVA
-- ✅ **Factor de potència real**: 0,9 (90%)
-- 🔌 **Potència efectiva**: 5,4 kW per unitat
-
-### 🏷️ Model escollit:
-
-- **SAI Lapara 6000VA / 6000W**
-  - Proporciona **1 kW addicional** respecte al necessari
-  - Ideal per situacions amb càrrega elevada de tots els servidors
-
----
-
-## 3. 💰 Cost del sistema
-
-- 💵 **Preu per unitat**: 1.647,09 €
-- 🔢 **Nombre d’unitats necessàries**: 5
-- 💸 **Cost total estimat**:  
-  `1.647,09 € × 5 = 8.235,45 €`
-
----
-
-<p align="center" style="margin-top: 40px;">
-  <a href="./calculoAnterior.md" style="text-decoration: none; margin-right: 20px;">
-    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
-      ⬅️ Càlcul anterior
-    </button>
-  </a>
-  
-  <a href="../README.md" style="text-decoration: none; margin-right: 20px;">
-    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
-      | 🏠 Inici |
-    </button>
-  </a>
-  
-  <a href="./instalacionSAI.md" style="text-decoration: none; margin-left: 20px;">
-    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #4CAF50; color: white; border: none;">
-      Següent càlcul ➡️
-    </button>
-  </a>
+<p align="center">
+  <img src="../img/BIBI1.png" alt="Racks" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
+---
+
+# 🔋 Especificaciones del sistema SAI necesario
+
+Así que tendremos que buscar sistemas SAI de estas especificaciones:
+
+- 6 kVA  
+- Factor de potencia realmente utilizada de 0,9 o 90%  
+- 5 kW por SAI  
+
+**El que coincide con estas especificaciones es este, es perfecto para nosotros:**  
+SAI Lapara 6000VA / 6000W (Este proporciona 1 KW más de los que necesitamos, pero va bien para asegurar cuando se pongan a máxima carga todos los servidores).
+
+<p align="center">
+  <img src="../img/BIBI2.png" alt="Racks" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
+---
+
+# 💰 Coste estimado del sistema SAI
+
+Ahora mismo el precio de este Sistema SAI es de unos **1.647,09 €**,  
+y si compramos **5**, el costo total sería unos **8.235,45 €**.
