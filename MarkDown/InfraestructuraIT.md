@@ -89,7 +89,7 @@ El modelo será el **APC AR3150B 42U** (42 unidades de rack = 1,86 metros).
 - Facilitar el mantenimiento por secciones
 
 <p align="center">
-  <img src="../img/Aracks.png" alt="Racks" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="../img/aracks2.png" alt="Racks" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 ---
