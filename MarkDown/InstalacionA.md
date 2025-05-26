@@ -108,7 +108,7 @@ Instalo el NGINX + el RTMP, luego entro al `/etc/nginx/nginx.conf` y al final de
 </p>
 
 <p align="center">
-  <img src="../img/Instalacion17.png" alt="Video" width="70%" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="../img/Instalacion17.png" alt="Video" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 Luego creo el directorio de videos y le doy permisos, reinicio el nginx y compruebo si funciona todo.
