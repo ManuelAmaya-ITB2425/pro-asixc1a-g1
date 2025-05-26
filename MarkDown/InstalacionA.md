@@ -11,7 +11,7 @@ Entramos a AWS y iniciamos una instancia, selecciono la AMI Ubuntu Server 22.04 
 </p>
 
 <p align="center">
-  <img src="../img/Instalacion2.png" alt="Ubuntu" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="../img/Instalacion2.png" alt="Ubuntu" width="70%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
 
 Tipo t3.medium para que los 3 servicios funcionen bien sin ningún error y con 20 GB (SSD gp2) para que tenga suficiente almacenamiento para todos los servicios.
