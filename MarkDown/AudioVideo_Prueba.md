@@ -71,7 +71,7 @@ Y se ve el video correctamente.rtmp://54.224.139.37/live/stream
     </button>
   </a>
   
-  <a href="./Ancho.md" style="text-decoration: none; margin-left: 20px;">
+  <a href="./AnchoBanda_Prueba.md" style="text-decoration: none; margin-left: 20px;">
     <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #4CAF50; color: white; border: none;">
       Página siguiente ➡️
     </button>
