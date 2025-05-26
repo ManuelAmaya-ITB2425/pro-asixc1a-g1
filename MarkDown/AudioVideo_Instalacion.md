@@ -120,3 +120,25 @@ Luego creo el directorio de videos y le doy permisos, reinicio el nginx y compru
 <p align="center">
   <img src="../img/Instalacion19.png" alt="Video" width="70%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
+
+
+<p align="center" style="margin-top: 40px;">
+  <a href="./ubicacionFisica.md" style="text-decoration: none; margin-right: 20px;">
+    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
+      ⬅️ Página anterior
+    </button>
+  </a>
+  
+  <a href="../README.md" style="text-decoration: none; margin-right: 20px;">
+    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #2196F3; color: white; border: none;">
+      | 🏠 Inicio |
+    </button>
+  </a>
+  
+  <a href="./AudioVideo_Prueba.md" style="text-decoration: none; margin-left: 20px;">
+    <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #4CAF50; color: white; border: none;">
+      Página siguiente ➡️
+    </button>
+  </a>
+</p>
+
