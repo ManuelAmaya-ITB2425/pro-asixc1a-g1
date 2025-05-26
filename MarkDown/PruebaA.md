@@ -53,3 +53,7 @@ Y se ve el video correctamente.rtmp://54.224.139.37/live/stream
 <p align="center">
   <img src="../img/Prueba9.png" alt="Video" width="70%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
+
+<p align="center">
+  <img src="../img/Prueba10.png" alt="Video" width="70%" style="border:1px solid #ccc; border-radius:8px;" />
+</p>
