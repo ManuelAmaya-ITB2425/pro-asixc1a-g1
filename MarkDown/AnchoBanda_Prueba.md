@@ -14,6 +14,7 @@ El puerto 5201 tiene que estar abierto para que cualquiera pueda verlo, así se 
 <p align="center">
   <img src="../img/Ancho3.png" alt="Video" width="70%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
+
 ---
 
 Desde el cliente (iPhone, pero puede ser cualquiera) uso una aplicación para hacer el test, pongo la IP pública mientras el comando `iperf3 -s` está ejecutándose en la instancia y vemos la velocidad de ancho de banda.
@@ -23,5 +24,5 @@ Desde el cliente (iPhone, pero puede ser cualquiera) uso una aplicación para ha
 </p>
 
 <p align="center">
-  <img src="../img/Ancho5.png" alt="Video" width="70%" style="border:1px solid #ccc; border-radius:8px;" />
+  <img src="../img/Ancho5.png" alt="Video" width="40%" style="border:1px solid #ccc; border-radius:8px;" />
 </p>
