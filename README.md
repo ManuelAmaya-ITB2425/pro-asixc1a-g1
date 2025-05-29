@@ -5,7 +5,7 @@
 ## 🧠 Propuesta CPD
 - [Ubicacion Fisica](./MarkDown/ubicacionFisica.md)
 - [Infraestructura IT](./MarkDown/InfraestructuraIT.md)
-- [Infraestructura elèctrica](./MarkDown/Infraestructuraelectrica.md)
+- [Infraestructura elèctrica](./MarkDown/InfraestructuraElectrica.md)
 - [Seguretat física i lògica](./MarkDown/seguridadlogicayfisica.md)
 - [Sostenibilitat](./MarkDown/sostenibilidad.md)
 - [Implementació del CPD al núvol AWS](./MarkDown/implementacionCPD.md)
