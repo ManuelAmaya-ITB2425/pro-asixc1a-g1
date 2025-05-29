@@ -134,7 +134,7 @@ Tendremos un sistema **SAN/NAS** conectado por **10 GbE** a los switches, ofreci
     </button>
   </a>
   
-  <a href="./Infraestructuraelectrica.md" style="text-decoration: none; margin-left: 20px;">
+  <a href="./InfraestructuraElectrica.md" style="text-decoration: none; margin-left: 20px;">
     <button style="padding: 10px 20px; font-size: 16px; border-radius: 6px; background-color: #4CAF50; color: white; border: none;">
       Página siguiente ➡️
     </button>
