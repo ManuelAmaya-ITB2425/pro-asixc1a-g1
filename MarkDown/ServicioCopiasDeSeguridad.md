@@ -99,7 +99,7 @@ sudo nano /etc/systemd/system/duplicati.service
 
 ## Escogemos el destino y probamos la conexión
 
-![PHOTTTO8](../img/PHOTTTO16.png)
+![PHOTTTO8](../img/PHOTTTO27.png)
 
 ---
 
