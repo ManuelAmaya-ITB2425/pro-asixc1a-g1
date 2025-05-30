@@ -43,7 +43,13 @@ En este documento se explica el proceso completo para monitorizar cambios en el 
 > **Función:** Configuración de jails para proteger servicios (ej. ssh) y bloqueo de IPs.
 
 <p align="center">
-  <img src="../../img/S6 - Seguridad/etc-fail2ban-jail.local.png" alt="Plano edificio" width="55%" style="border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="../../img/S6 - Seguridad/bot.py1.png" alt="Plano edificio" width="55%" style="border: 1px solid #ccc; border-radius: 8px;" />
+
+  
+  <img src="../../img/S6 - Seguridad/bot.py2.png" alt="Plano edificio" width="55%" style="border: 1px solid #ccc; border-radius: 8px;" />
+
+  
+  <img src="../../img/S6 - Seguridad/bot.py3.png" alt="Plano edificio" width="55%" style="border: 1px solid #ccc; border-radius: 8px;" />
 </p>
 
 - `/etc/fail2ban/action.d/telegram.conf` (si se creó)
@@ -58,37 +64,15 @@ En este documento se explica el proceso completo para monitorizar cambios en el 
 
 ---
 
-### 2.4 Automatización del Script
-
-- Configuración de cron o systemd para ejecutar automáticamente el script.
-
-> **Captura:**  
-> Si se usó cron, mostrar el contenido con `crontab -l` o el archivo específico en `/etc/cron.d/`.
-
-> Si se usó systemd, mostrar el archivo `.service` y estado con `systemctl status audit-telegram.service`.
-
----
-
-### 2.5 Script Python del Bot
+### 2.4  Script Python del Bot
 
 - `/etc/fail2ban/bot.py`
 
 > **Función:** Script en Python que envía mensajes directos al chat de Telegram mediante la API del bot. Utilizado para pruebas iniciales o como parte de una automatización.
 
-```python
-import requests
-
-TOKEN = "7667373161:AAGeqZvg5InKfAMUmg_bL_s0rHIVueMcDaU"
-CHAT_ID = "1648078840"
-
-mensaje = "🔒 El bot.py funciona correctamente."
-
-url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
-data = {"chat_id": CHAT_ID, "text": mensaje}
-
-response = requests.post(url, data=data)
-print(response.json())
-
+<p align="center">
+  <img src="../../img/S6 - Seguridad/etc-fail2ban-action.d-telegram.conf.png" alt="Plano edificio" width="55%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
 ---
 
 ## 3. Comandos útiles para comprobar el sistema
