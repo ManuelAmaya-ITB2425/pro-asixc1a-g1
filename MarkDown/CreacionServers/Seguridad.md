@@ -14,8 +14,9 @@ En este documento se explica el proceso completo para monitorizar cambios en el 
 
 > **Función:** Script que lee `/var/log/audit/audit.log` para detectar eventos con la clave `hosts-watch` y envía mensajes a Telegram.
 
-> **Captura:**  
-> Captura del contenido del script `audit_telegram.sh` usando `cat /etc/fail2ban/audit_telegram.sh`
+<p align="center">
+  <img src="../../img/S6 - Seguridad/etc-fail2ban-audit_telegram.sh.png" alt="Plano edificio" width="55%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
 
 ---
 
@@ -25,15 +26,13 @@ En este documento se explica el proceso completo para monitorizar cambios en el 
 
 > **Función:** Definición de reglas para monitorizar archivos sensibles (ejemplo: `/etc/hosts`).
 
-> **Captura:**  
-> Mostrar las reglas con `cat /etc/audit/rules.d/audit.rules`
+<p align="center">
+  <img src="../../img/S6 - Seguridad/etc-audit-rules.d-audit.rules.png" alt="Plano edificio" width="55%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
 
 - `/var/log/audit/audit.log`
 
 > **Función:** Archivo de log donde auditd guarda eventos.
-
-> **Captura:**  
-> Captura de un ejemplo de evento detectado (usa `ausearch -k hosts-watch --start recent`).
 
 ---
 
@@ -43,8 +42,9 @@ En este documento se explica el proceso completo para monitorizar cambios en el 
 
 > **Función:** Configuración de jails para proteger servicios (ej. ssh) y bloqueo de IPs.
 
-> **Captura:**  
-> Mostrar las jails configuradas con `cat /etc/fail2ban/jail.local`
+<p align="center">
+  <img src="../../img/S6 - Seguridad/etc-fail2ban-jail.local.png" alt="Plano edificio" width="55%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
 
 - `/etc/fail2ban/action.d/telegram.conf` (si se creó)
 
@@ -52,6 +52,9 @@ En este documento se explica el proceso completo para monitorizar cambios en el 
 
 > **Captura:**  
 > Contenido de la acción con `cat /etc/fail2ban/action.d/telegram.conf`
+<p align="center">
+  <img src="../../img/S6 - Seguridad/etc-fail2ban-action.d-telegram.conf.png" alt="Plano edificio" width="55%" style="border: 1px solid #ccc; border-radius: 8px;" />
+</p>
 
 ---
 
@@ -66,8 +69,32 @@ En este documento se explica el proceso completo para monitorizar cambios en el 
 
 ---
 
+### 2.5 Script Python del Bot
+
+- `/etc/fail2ban/bot.py`
+
+> **Función:** Script en Python que envía mensajes directos al chat de Telegram mediante la API del bot. Utilizado para pruebas iniciales o como parte de una automatización.
+
+```python
+import requests
+
+TOKEN = "7667373161:AAGeqZvg5InKfAMUmg_bL_s0rHIVueMcDaU"
+CHAT_ID = "1648078840"
+
+mensaje = "🔒 El bot.py funciona correctamente."
+
+url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+data = {"chat_id": CHAT_ID, "text": mensaje}
+
+response = requests.post(url, data=data)
+print(response.json())
+
+---
+
 ## 3. Comandos útiles para comprobar el sistema
 
 - Buscar eventos recientes:  
 ```bash
+sudo ausearch -k hosts-watch --start recent
+
 sudo ausearch -k hosts-watch --start recent
