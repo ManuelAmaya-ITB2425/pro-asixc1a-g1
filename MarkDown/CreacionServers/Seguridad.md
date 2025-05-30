@@ -80,5 +80,3 @@ En este documento se explica el proceso completo para monitorizar cambios en el 
 - Buscar eventos recientes:  
 ```bash
 sudo ausearch -k hosts-watch --start recent
-
-sudo ausearch -k hosts-watch --start recent
